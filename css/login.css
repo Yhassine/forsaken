@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    /*define o tipo de modelo de caixa ,nesse caso sera uma caixa*/
+    margin: 0;
+    /* remove margens*/
+    padding: 0;
+    /*remove o preenchimento*/
+}
+
+html,
+body {
+    height: 100vh;
+    /*define a latura*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*tipo de letra*/
+    background: linear-gradient(red, violet);
+    /*fundo*/
+}
+
+.Login_conteiner {
+    display: flex;
+    /*serve para flexionar o elementos e por eles centralizadoss na vertical*/
+    justify-content: center;
+    align-items: center;
+    /*alinha os elementos no centro*/
+    height: 100vh;
+    /*altura da janela do navegado*/
+
+}
+
+.conteiner {
+    max-width: 640px;
+    /*define a largura maxima da pagina*/
+    margin: 0 auto;
+    /*define marem automatica para centralizar pconteudo*/
+    padding: 30px;
+    /*adiciona espaco entre o conteudo e a borda*/
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+    /*define sombra suave*/
+}
+
+.conteiner h2 {
+    font-size: 28px;
+    /*tamanho de letra*/
+    font-weight: bold;
+    /*tsmsnho de letra boldado*/
+    color: blueviolet;
+    /*cor da font*/
+    margin-top: 15px;
+    /*margem etre o h2 e o topo*/
+    text-align: center;
+    /*alinha o teto no cenros*/
+}
+
+.conteiner h3 {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: chocolate;
+    margin-top: 5px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-buttom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    width: 60%;
+    height: 60px;
+    background: linear-gradient(rgb(218, 98, 18), rgb(235, 93, 11), rgb(238, 20, 155));
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    animation: alternate;
+}
+button[type="submit"]:hover{
+    background:linear-gradient(silver,rgb(231, 139, 231),rgb(164, 255, 255));
+    border-radius: 7.5px;
+}
