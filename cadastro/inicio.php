@@ -15,8 +15,9 @@
         <title>pagina</title>
     </head>
     <body>
-        <h1>
+        <div class="conteiner">
         <div class="container">
+        <h1>
                  Bem Vindo ao Forsaken 
         </h1>
         <h2>
@@ -25,6 +26,7 @@
             <button type="submit">inicio</button>
               <a href="../login/login.php">Entrar<a>
         </div>
-      
+
+       </div>
     </body>
 </html>

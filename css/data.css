@@ -43,31 +43,3 @@ html,body{
 
 
 }
- input[type="email"]
- {
-    width: 300px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-buttom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 1em;
-}
-button[type="submit"]{
-    width: 50%;
-    height: 60px;
-    background: linear-gradient(rgb(211, 18, 218), rgb(235, 11, 198), rgb(238, 20, 155));
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    animation: alternate;   
-}
-
-button[type="submit"]:hover{
-    background:linear-gradient(silver,rgb(231, 139, 231),rgb(164, 255, 255));
-    border-radius: 7.5px;
-}

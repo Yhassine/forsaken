@@ -12,38 +12,50 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(red, violet);
 }
+.conteiner {
+    display: flex;
+    /*serve para flexionar o elementos e por eles centralizadoss na vertical*/
+    justify-content: center;
+    align-items: center;
+    /*alinha os elementos no centro*/
+    height: 100vh;
+    /*altura da janela do navegado*/
+
+}
 
 .container{
-     max-width: 640px;
+     max-width: 700px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 60vh;
     margin: 0 auto;
+    gap: 5px;
 }
- h1{
+ .container h1{
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 0;
     font-size: 48px;
     color: blueviolet;
 
 
 }
-h2{
+.container h2{
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 10px 0;
     font-size: 48px;
-    color: rgb(145, 64, 221);
-    font-size: 20px;
-
+    color: chocolate;
+    font-size: 15px;
+    font-style: italic;
 }
 button{
 
  width: 60%;
     height: 60px;
-    background: linear-gradient(rgb(218, 98, 18), rgb(235, 93, 11), rgb(255, 102, 0));
+    background: linear-gradient(rgb(211, 18, 218), rgb(235, 11, 198), rgb(238, 20, 155));
     border: none;
     border-radius:15px;
     cursor: pointer;
@@ -52,10 +64,11 @@ button{
     margin-top: 20px;
     animation: alternate;
 }
-a{
-    text-align: left;
+.container a{
+    display: block;
+    text-align: center;
     font-weight: bold;
-    margin-top: 100px;
+    margin: 5px 0;
     font-size: 28px;
     color: rgb(145, 64, 221);
     font-size: 20px;
@@ -63,3 +76,8 @@ a{
    
 }
 
+.container a :hover{
+    
+    color: rgb(23, 206, 120);
+    
+}

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet", href="../css/email.css">
+        <link rel="stylesheet", href="../css/final.css">
         <title>pagina</title>
     </head>
      <body>
@@ -14,9 +14,6 @@
         </h1>
 <br>
         <form action="" method="post">
-            </br>
-            <input type="email" name="e-mail"placeholder="e-mail" />
-<br>
              <button type="submit">Seguinte</button> 
         </form>
         </div>

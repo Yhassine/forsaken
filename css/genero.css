@@ -34,7 +34,7 @@ html,body{
     gap: 15px;/*espaco estre os elementros*/
 }
 
- .container h1{
+.container h1{
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
@@ -43,19 +43,9 @@ html,body{
 
 
 }
- input[type="email"]
- {
-    width: 300px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-buttom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 1em;
-}
+
 button[type="submit"]{
-    width: 50%;
+    width: 80%;
     height: 60px;
     background: linear-gradient(rgb(211, 18, 218), rgb(235, 11, 198), rgb(238, 20, 155));
     border: none;
